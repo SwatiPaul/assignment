@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    height: 100vh;
+    min-height: 100%;
+}
+.main h1{
+    font-weight: 400;
+    color: rgb(2 2 85);
+}
+.main table{
+    align-items: center;
+}
+.main table thead{
+    background: #f7f7f7;
+}
+.main table thead th{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    color: #020255;
+}
+.main h1{
+    padding: 10px 20px;
+}
+.main table tbody td{
+    color: #020255;
+    font-size: 14px;
+}
+.delete-icon{
+    color: rgb(217, 25, 25);
+    background: #fad9d9;
+    padding: 6px;
+    border-radius: 20px;
+    font-size: 20px !important;
+    cursor: pointer;
+}
